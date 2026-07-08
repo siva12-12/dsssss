@@ -18,23 +18,6 @@ SELECT food_id, name, amount,
 ROW_NUMBER() OVER(PARTITION BY food_id) AS running_total
 from food;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 SELECT
     food_id,
     name,
